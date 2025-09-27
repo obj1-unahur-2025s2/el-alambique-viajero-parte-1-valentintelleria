@@ -16,6 +16,11 @@ object luke {
         }
     }
 
-    method lugaresVisitados() = lugaresVisitados
-    method ultimoRecuerdo() = ultimoRecuerdo
+    method lugaresVisitados() {
+        return lugaresVisitados
+    }
+    
+    method ultimoRecuerdo() {
+        return ultimoRecuerdo
+    }
 }
